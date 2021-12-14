@@ -8,7 +8,7 @@ use AOC\DayOne\DayOne;
 class DayOneTest extends TestCase
 {
     /** @test */
-    public function PartOne()
+    public function part_one()
     {
         $input = file_get_contents(__DIR__ . '/fixtures/day_1.txt');
 
@@ -18,7 +18,7 @@ class DayOneTest extends TestCase
     }
 
     /** @test */
-    public function PartTwo()
+    public function part_two()
     {
         $input = file_get_contents(__DIR__ . '/fixtures/day_1.txt');
 
