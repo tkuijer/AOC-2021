@@ -16,4 +16,14 @@ class DayTwoTest extends TestCase
 
         $this->assertEquals(150, $result);
     }
+    
+    /** @test */
+    function part_two()
+    {
+        $input = file_get_contents(__DIR__. '/fixtures/day_2.txt');
+        
+        $result = DayTwo::part_two($input);
+
+        $this->assertEquals(900, $result);
+    }
 }
